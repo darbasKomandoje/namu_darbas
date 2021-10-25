@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 200px;
+  font-family: 'Roboto', sans-serif;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+p {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.container {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.dark-bg {
+  background: rgb(129, 129, 129);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.light-bg {
+  background: rgb(243, 243, 243);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button {
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button.outline {
+  background: unset;
+  color: green;
+  border: 1px solid green;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.button.outline:hover {
+  background: green;
+  color: white;
+  box-shadow: none;
+}
+
+div.hero-box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+div.hero-box .button {
+  font-size: 18px;
+  margin-top: 18px;
+}
+
+div.hero-box .content {
+  max-width: 450px;
+}
+
+.content {
+  padding: 50px 15px;
+}
+
+.content .content-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+div.carousel {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+div.carousel-cell {
+  width: 75%;
+  height: 500px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+div.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.card {
+  width: 30%;
+  background: rgb(240, 240, 240);
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+div.card:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+div.card .content p {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+div.card img {
+  min-height: 30%;
+  width: 100%;
+  object-fit: cover;
+}
+
+div.card .button {
+  font-size: 18px;
+}
+
+div.image-card {
+  width: 24%;
+  height: 250px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+div.image-card .button {
+  margin-top: 50px;
+  opacity: 0;
+  transition: all 0.3s;
+  color: white;
+  border-color: white;
+}
+
+div.image-card .button:hover {
+  color: green;
+  border-color: white;
+  background: white;
+}
+
+div.image-card:hover .button {
+  opacity: 1;
+}
+
+div.image-card .content-title {
+  font-size: 20px;
+  color: white;
+}
+
+.content-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-section .content {
+  padding: 15px;
+}
+
+.content-section .content,
+.content-section .images {
+  width: 49%;
+}
+
+.content-section .images img {
+  width: 49%;
+  min-width: 100px;
+}
+
+.content-section-2 {
+  align-items: flex-start;
+}
+
+.content-section-2 .content {
+  padding-top: 0;
+}
+
+.content-section-2 .images {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.content-section-2 .images img {
+  height: 120px;
+  width: 50%;
+  min-width: unset;
+  object-fit: cover;
+}
+
+.content-section-2 .images img:first-of-type {
+  width: 100%;
+  height: 250px;
+}
+
+.content-section-3,
+.content-section-4 {
+  justify-content: center;
+  text-align: center;
+}
+
+.content-section-3 .content,
+.content-section-4 .content {
+  min-width: 450px;
+}
+
+.content-section-3 .content ol,
+.content-section-4 .content ol,
+.content-section-5 .content ol {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-left: 0;
+}
+
+.carousel.gallery-slider .carousel-cell {
+  height: 150px;
+  width: 33%;
+  border-radius: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel.gallery-slider .carousel-cell img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-section-5 .object-wrapper {
+  width: 49%;
+}
