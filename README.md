@@ -11,7 +11,7 @@ git checkout -b ＜new-branch＞
 ```
 
 ## Atliktų pakeitimų išsaugojimas
-Kuriuos redaguotus failus įtrauksite, jeigu po add nurodysite žvaigždutę, visi redaguoti failai bus įtraukti:
+Kuriuos redaguotus failus įtrauksite, P.S jeigu po add nurodysite žvaigždutę, visi redaguoti failai bus įtraukti:
 ```bash
 git add ＜index.html＞
 ```
@@ -19,7 +19,7 @@ git add ＜index.html＞
 ```bash
 git commit -m "your text"
 ```
-## Pakeitimų išsiuntimas į nutolosi serverį
+## Pakeitimų išsiuntimas į nutolusi serverį
 ```bash
 git push <remote> <branch-name>
 ```
