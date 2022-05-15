@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- PATIKRINTA SU HTML VALIDATOR -->
+<html lang="lt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style13.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <h4><br><a href="../index.html"></b><i><font color="#FF0000"><b>grįžti į pradinį puslapį</b></font></i></a><br></h4>
+  <h1>About</h1>
+    <table class="p1">
+      <tr>
+        <td><p class="hangingindent">It can be intimidating for woman to learn and ask questions when they are in an <span class="chngcolor1">extreme minority.</span> While open and welcoming, today's budding developer community is up to <span class="chngcolor1">91% male </span>If we can empower more female with the confidence in teir technological capabilities <span class="chngcoloritalic">we can begin to change this landscape.</span></p>
+        </td>
+      </tr>
+    </table>
+
+  <h2>Our Locations</h2>
+
+<table class="hidden">
+  <thead>
+    <tr>
+      <th colspan="2">USA</th>
+      <th colspan="2">World</th>
+    </tr>  
+  </thead>
+  <tbody>
+    <tr>
+      <td><ul><li><a href="#">New York</a></li></ul></td>
+      <td><ul><li><a href="#">Columbus</a></li></ul></td>
+      <td><ul><li><a href="#">Ottawa</a></li></ul></td>
+      <td><ul><li><a href="#">Sydney</a></li></ul></td>
+    </tr>
+        <tr>
+      <td><ul><li><a href="#">Austria</a></li></ul></td>
+      <td><ul><li><a href="#">Philly</a></li></ul></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+   
+  <h2>Upcoming Classes</h2>
+    
+<div>
+    <table class="tbl_loc">
+        <thead>
+        <tr>
+          <th>LOCATION</th>
+          <th>TOPIC</th>
+        </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td>New York</td>
+        <td>JavaScript & jQuery</td>        
+      </tr>
+      <tr>
+        <td>San Francisco</td>
+        <td>HTML & CSS</td>        
+      </tr>
+       </tbody>
+     </table>
+</div>
+
+<h2>Sign Up!</h2>
+
+<form class="inp_form" method="post">
+  <div>
+    <label class="lbl1" for="fname">Name:</label>
+    <input class="inp1" type="text" id="fname" name="fname"  placeholder="Enter Your Name" required>
+  </div>      
+  <div>
+    <label class="lbl1" for="lname">Surname:</label>
+    <input class="inp1" type="text" id="lname" name="lname"  placeholder="Enter Your Surname" required>
+  </div>
+  <div>
+    <label class="lbl1" for="email">Email:</label>
+    <input class="inp1" type="text" id="email" name="email"  placeholder="Enter Your e-mail" required>
+  </div>
+  <div>
+    <label class="lbl1" for="town_select">Location:</label>
+      <select class="sel1" name="town_select" id="town_select" required>
+          <option value="">--Please choose an option--</option>
+          <option value="sf">San Francisco</option>
+          <option value="ny">New York</option>
+      </select>
+  </div>
+  
+    <table class="fs1">
+      <tr>
+        <td>
+          <div>
+            <fieldset>
+<!-- <legend duoda fieldsetui užrašą viršuje kaip pavadinimą -->
+              <legend class="fldset">Gender:</legend>
+              <label class="fldset" for="female">Female</label>
+              <input type="radio" id="female" name="gender" required>
+              <label class="fldset" for="male">Male</label>
+              <input type="radio" id="male" name="gender">
+              <label class="fldset" for="other">Other</label>
+              <input type="radio" id="other" name="gender">
+            </fieldset>
+          </div>
+        </td>
+      </tr>
+    </table>
+  <div>
+  <textarea id="experience" name="ex_db" required placeholder="Please describe Your experience Here..." maxlength="512" cols="30" rows="5"></textarea>
+  </div>
+  <div>
+    <input type="submit" value="Sign Up!">
+  </div>
+</form>
+
+  </body>
+</html>

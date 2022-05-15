@@ -1,0 +1,35 @@
+.container-fluid {
+  height: 100vh;
+  background-image: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .carousel-inner {
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .carousel-item,
+  .carousel-item img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+  .carousel-inner {
+    height: 160px;
+    object-fit: cover;
+  }
+
+  .carousel-item,
+  .carousel-item img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+  }
+}

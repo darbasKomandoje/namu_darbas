@@ -1,0 +1,22 @@
+.container {
+  height: 100vh;
+}
+.dog {
+      position:absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1;
+    }
+.btfl {
+      position:absolute;
+      top: 25px;
+      left: 25px;
+      z-index: 2;
+      opacity: 0.5;
+    }
+.txtLink {
+  position:absolute;
+  top: 10px;
+  left: 12vh;
+  z-index: 1;
+}
