@@ -292,3 +292,6 @@ div.image-card .content-title {
   height: 100em;
   overflow: hidden;
 }
+img {
+  object-fit: cover;
+}
