@@ -1,0 +1,6 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+}

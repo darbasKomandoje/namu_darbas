@@ -1,0 +1,137 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;}
+  
+  body{margin: 0; height: 100vh; padding: 10px 50px 20px;
+       background-color: #eedddd;
+       
+       text-align: center;
+  }
+ 
+  .hangingindent {
+    padding-left: -22px;
+    text-indent: 22px;
+    text-align: justify;
+  }
+  table.p1 {
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  span.chngcolor1, span.chngcoloritalic{
+    font-weight: bold;
+    color: #ff7b00;}
+  span.chngcolor1:nth-child(1) {animation:blinkingText 1.2s infinite;}
+  @keyframes blinkingText{
+      0%{color: #ff0000;}
+      49%{color: #ff0000;}
+      60%{color: transparent;}
+      99%{color:transparent;}
+      100%{color: #ff0000;}}
+  span.chngcoloritalic {font-style: italic;}
+  
+  h1, h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-shadow: 6px 6px 6px #c5679a;
+    color: #1552cb;
+  }
+  
+  h1 {
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+  
+  
+  table.hidden  {
+    text-align: center; 
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 8px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3));
+    color: darkblue;
+    box-shadow: 5px 5px 5px red;
+    /* border: 4px double #f7fbfd; */
+  }
+  table.hidden th {
+    text-align: center; 
+    font-weight: bold;
+    color: #000000;
+}
+  
+  table.tbl_loc thead th:nth-child(1) {width: 15%;}
+  table.tbl_loc thead th:nth-child(2) {width: 35%;}
+  table.tbl_loc tbody td:nth-child(even) {color: #19716b;}
+  table.tbl_loc tbody td:nth-child(odd) {color: #ff1900;}
+  
+  table.tbl_loc td {
+    padding: 8px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3));
+    color: white;
+    border: 2px inset #f7fbfd;
+  }
+  
+  table.tbl_loc th {
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    color: white;
+    border: 2px inset #f7fbfd;
+    text-shadow: 1px 1px 8px black;
+  }
+  table.tbl_loc{
+    box-shadow: 5px 5px 5px red;
+  }
+  table.tbl_loc {
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+ 
+  form.inp_form input {
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 4px;
+    
+  }
+  
+  label.lbl1 {
+    width: 100px;
+    color: #008000;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label.fldset {
+    color: #008000;
+  }
+  
+  legend {
+    color: darkblue;
+  }
+    
+  textarea, select, table.fs1 {
+    padding: 6px;
+    font-size: 14px;
+    width: 400px;
+    resize: none;
+  }
+  table.fs1  {
+    table-layout: fixed;
+    width: 438px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    
+  select.sel1, input.inp1 {
+    padding: 6px;
+    font-size: 14px;
+    width: 310px;
+  }
+  input.inp1 {
+    width: 295px;
+  }

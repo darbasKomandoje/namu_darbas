@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@50,200;1,200&display=swap');
+
+body{
+  margin: 0;
+  height: 100vh;
+  background-image: url("./img/kitty.jpg");
+  background-repeat:no-repeat;
+ /*  background-size:cover; */
+  background-size:scale-down;
+  background-position: center center;
+  min-height: 100%;
+ background-color: #000000;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #00ff33;
+  border: 2mm ridge rgba(170,50,20,40);
+  box-shadow: 10px 5px 5px gold;
+  text-transform: uppercase;
+ /*  text-position: center; */
+}
+
+h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #9a20b0;
+}
+#underlinedtext{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #f7f7f7;
+  text-decoration-line: underline;
+ /*  font-family: 'Source Sans Pro', sans-serif; */
+}
+#pirmas {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #0810f7;
+}
+#antras{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ff004c;
+}
+#trecias{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #4dff00;
+}
+.bluebox{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #0400ff;
+}
+.redbox{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ff0000;
+}
+.greyscale{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #979191;
+}
+img{
+  width: 350px;
+  height: 150px;
+  border: 2px solid black;
+}
+.img_1{
+  object-fit: cover; 
+}
+.img_2{
+  object-fit: fill; 
+}
+.img_3{
+  object-fit: contain;  
+}
+.img_4{
+  object-fit: scale-down;  
+}
+.img_5{
+  object-fit: none;
+}
+.container1 {
+  background-image: url("./img/img100.jpg");
+  height: 1920px;
+  background-attachment: fixed;
+}
+.container2 {
+  background-image: url("./img/img102.jpg");
+  height: 100vw;
+  background-attachment: fixed;
+  object-fit: contain;
+}
+.container3 {
+  background-image: url("./img/img101.jpg");
+  height: 100vw;
+  background-attachment: fixed;
+}
+.container4 {
+  background-image: url("./img/img103.jpg");
+  height: 100vw;
+  background-attachment: fixed;
+}
+.container5 {
+    background-image: url("./img/img104.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+  }
