@@ -30,6 +30,7 @@ h2 {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+
 }
 
 .dark-bg {
@@ -284,4 +285,10 @@ div.image-card .content-title {
 
 .content-section-5 .object-wrapper {
   width: 49%;
+}
+.hero-box hero-1{
+  object-fit: cover;
+  object-position: center;
+  height: 100em;
+  overflow: hidden;
 }
