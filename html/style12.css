@@ -21,6 +21,7 @@ h1{
   text-transform: uppercase;
  /*  text-position: center; */
 }
+
 h2{
   font-family: 'Source Sans Pro', sans-serif;
   color: #9a20b0;
@@ -77,26 +78,27 @@ img{
 }
 .container1 {
   background-image: url("./img/img100.jpg");
-  height: 100vh;
+  height: 1920px;
   background-attachment: fixed;
 }
 .container2 {
   background-image: url("./img/img102.jpg");
-  height: 100vh;
+  height: 100vw;
   background-attachment: fixed;
+  object-fit: contain;
 }
 .container3 {
   background-image: url("./img/img101.jpg");
-  height: 100vh;
+  height: 100vw;
   background-attachment: fixed;
 }
 .container4 {
   background-image: url("./img/img103.jpg");
-  height: 100vh;
+  height: 100vw;
   background-attachment: fixed;
 }
 .container5 {
     background-image: url("./img/img104.jpg");
-    height: 100vh;
+    height: 100vw;
     background-attachment: fixed;
   }
