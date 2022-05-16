@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding-bottom: 200px;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 iframe {
@@ -30,7 +31,6 @@ h2 {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-
 }
 
 .dark-bg {
@@ -127,7 +127,7 @@ div.carousel-cell {
   border-radius: 5px;
 }
 
-div.cards {
+/* div.cards {
   display: flex;
   justify-content: space-between;
 }
@@ -199,7 +199,7 @@ div.image-card:hover .button {
 div.image-card .content-title {
   font-size: 20px;
   color: white;
-}
+} */
 
 .content-section {
   display: flex;
@@ -286,7 +286,7 @@ div.image-card .content-title {
 .content-section-5 .object-wrapper {
   width: 49%;
 }
-.hero-box hero-1{
+.hero-box hero-1 {
   object-fit: cover;
   object-position: center;
   height: 100em;
